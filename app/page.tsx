@@ -35,13 +35,6 @@ export default function Home() {
             </LinkPreview>
           </div>
 
-          <p style={{ margin: "0 0 1.2em 0" }}>
-            &rarr;{" "}
-            <LinkPreview href="/philosophy" domain="valnahata.me">
-              My philosophy, my <em>why</em>
-            </LinkPreview>
-          </p>
-
           <p style={{ margin: "0 0 2.5em 0" }}>
             &rarr;{" "}
             <LinkPreview href="/surgical-video-models" domain="valnahata.me">

@@ -22,7 +22,7 @@ export default function SurgicalVideoModelsPage() {
           <p style={{ margin: "0 0 1.5em 0", color: "#444", fontSize: "16px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "10px" }}>
             <span>A challenge expo on adapting surgical video models to MedVidBench.</span>
             <a
-              href="/surgical-video-models.pdf"
+              href="https://valnahata.me/surgical-video-models.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -34,7 +34,7 @@ export default function SurgicalVideoModelsPage() {
                 fontSize: "15px",
               }}
             >
-              Open PDF in new tab &nearr;
+              Open PDF in new tab ↗
             </a>
           </p>
 
