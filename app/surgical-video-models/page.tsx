@@ -1,11 +1,10 @@
 import Link from "next/link";
-import ShaderBackground from "../components/ShaderBackgroundClient";
 import EstClockHeader from "../components/EstClockHeader";
 
 export default function SurgicalVideoModelsPage() {
   return (
     <div style={{ width: "100%", minHeight: "100vh", background: "transparent", color: "#000000" }}>
-      <section className="section-essay" style={{ padding: "24px 60px 80px 60px", maxWidth: "925px", margin: "0 auto", width: "925px", boxSizing: "border-box" }}>
+      <section className="section-essay">
         <div style={{ fontSize: "18px", lineHeight: 1.9, color: "#1a1a1a", fontFamily: "'Crimson Text', serif" }}>
           <EstClockHeader
             leftContent={
@@ -41,8 +40,8 @@ export default function SurgicalVideoModelsPage() {
           <div
             style={{
               width: "100%",
-              height: "82vh",
-              minHeight: "650px",
+              height: "clamp(550px, 80vh, 900px)",
+              minHeight: "450px",
               borderRadius: "8px",
               overflow: "hidden",
               border: "1px solid rgba(0, 0, 0, 0.12)",
@@ -52,14 +51,14 @@ export default function SurgicalVideoModelsPage() {
             }}
           >
             <object
-              data="/surgical-video-models.pdf"
+              data="/surgical-video-models.pdf#navpanes=0&pagemode=none&view=FitH"
               type="application/pdf"
               width="100%"
               height="100%"
               style={{ display: "block" }}
             >
               <iframe
-                src="/surgical-video-models.pdf"
+                src="/surgical-video-models.pdf#navpanes=0&pagemode=none&view=FitH"
                 width="100%"
                 height="100%"
                 style={{ border: "none" }}
@@ -77,9 +76,7 @@ export default function SurgicalVideoModelsPage() {
             </object>
           </div>
 
-          <div className="divider">
-            <ShaderBackground uTimeOffset={40} flip />
-          </div>
+
         </div>
       </section>
     </div>
