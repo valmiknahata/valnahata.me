@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/0ikj55n7m0q0x.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap","style"]
+:HL["/images/gallery/nyc-subway.jpg","image"]
+:HL["/images/gallery/nyc-night.jpg","image"]
+:HL["/images/gallery/rockefeller-winter.jpg","image"]
+:HL["/images/gallery/jordan-pond-spring.jpg","image"]
+:HL["/images/gallery/blue-ridge-summer.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cv","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"sYs8WxTmuctjfO6pMjAjn"}
